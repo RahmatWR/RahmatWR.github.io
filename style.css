@@ -21,7 +21,7 @@ body {
 }
 
 .navbar button {
-	width: 25px;
+	width: 55px;
 	background-color: var(--bg);
 }
 .navbar-toggler-icon {
@@ -40,6 +40,6 @@ button .fa-bars {
 	/* border-radius: 5px; */
 }
 
-pre {
-	font-size: 12px;
+p {
+	font-size: 14px;
 }
