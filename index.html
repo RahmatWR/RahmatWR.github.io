@@ -19,6 +19,7 @@
 			href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap"
 			rel="stylesheet" />
 		<!-- Aref Ruqaa Google Fonts End -->
+
 		<!-- Bootstrap Start -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -72,6 +73,7 @@
 					</div>
 				</div>
 
+				<!-- Collapsing navbar start -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
@@ -83,7 +85,7 @@
 						<li class="nav-item"></li>
 							<a class="nav-link" href="announcement.html">Announcement</a>
 						</li>
-						<li class="nav-item dropdown">
+						<li class="nav-item dropdown" data-bs-theme="light">
 							<a
 								class="nav-link dropdown-toggle"
 								href="#"
@@ -92,7 +94,7 @@
 								aria-expanded="false">
 								About
 							</a>
-							<ul class="dropdown-menu">
+							<ul class="dropdown-menu py-0">
 								<li><a class="dropdown-item" href="about-journal.html">About the Journal</a></li>
 								<li><a class="dropdown-item" href="submission.html">Submission</a></li>
 								<li>
@@ -114,16 +116,18 @@
 					</ul>
 					<form class="d-flex" role="search">
 						<input
-							class="form-control me-2"
+							class="form-control bg-light border-info-subtle"
 							type="search"
 							placeholder="Search"
 							aria-label="Search" />
-						<button class="btn btn-outline-success" type="submit">
-							Search
+						<button class="btn p-0 bg-light" type="submit">
+							<i class="fa-solid fa-magnifying-glass"></i>
 						</button>
 					</form>
-					<i class="fa-regular fa-address-book"></i>
+					<!-- <i class="fa-regular fa-address-book"></i> -->
 				</div>
+				<!-- Collapsing navbar end -->
+
 			</div>
 		</nav>
 
