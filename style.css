@@ -1,3 +1,4 @@
+/* General rules */
 :root {
 	--bg: #519fd7;
 	--border-color: #1e6292;
@@ -17,24 +18,44 @@ body {
 	font-size: 12px;
 }
 
+/* Navbar start*/
 .navbar {
 	background-color: var(--bg);
 }
 
-p {
-	font-size: 13px;
+/* Toggler Button */
+.navbar button.navbar-toggler {
+	height: 30px;
+}
+.navbar .navbar-toggler > .navbar-toggler-icon {
+	width: 25px;
 }
 
-hr {
-	color: white;
+/* Expand-Collapse Section */
+.navbar-nav > li.nav-item {
+	padding-left: 10px;
+	border-radius: 10px;
+}
+.navbar-nav > li.nav-item:hover {
+	background-color: white;
+	color: inherit;
+	font-weight: bold;
+}
+.navbar-nav > li.nav-item:hover > a {
+	color: var(--bg);
 }
 
+/* Dropdpwn Menu */
 .dropdown-menu li a {
 	color: var(--bg);
 }
 
 .dropdown-menu li a.dropdown-item:hover {
 	background-color: #2b90d9;
+	color: white;
+}
+
+hr {
 	color: white;
 }
 
@@ -54,7 +75,6 @@ form input[type="search"] {
 }
 form button.btn {
 	position: relative;
-	/* left: 5px; */
 	width: 10%;
 	border-radius: 15px;
 	border-top-left-radius: 0;
@@ -85,6 +105,15 @@ form button.btn:hover i {
 	color: white;
 }
 
+.btn-close {
+	width: 15px;
+	display: block;
+}
+
+p {
+	font-size: 13px;
+}
+
 .uniba {
 	color: #eb8034;
 	text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
@@ -105,13 +134,3 @@ form button.btn:hover i {
 
 	-webkit-text-fill-color: transparent;
 }
-
-.navbar .navbar-toggler {
-	height: 30px;
-}
-.navbar .navbar-toggler > .navbar-toggler-icon {
-	width: 25px;
-}
-
-/* #eb8034 */
-/* box-shadow: 0 0 0 .25rem rgba(13,110,253,.25); */
